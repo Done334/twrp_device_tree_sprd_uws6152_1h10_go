@@ -1,0 +1,9 @@
+# Default density config
+ro.sf.lcd_density=220
+
+# Usb config
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+sys.usb.controller=musb-hdrc.0.auto
